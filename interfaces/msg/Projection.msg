@@ -1,0 +1,4 @@
+string worksheet
+string projection
+bool has_position
+geometry_msgs/Point position

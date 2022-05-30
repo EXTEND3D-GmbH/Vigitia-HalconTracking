@@ -1,0 +1,5 @@
+CircleProjection[] circles
+Projection[] projections
+---
+bool success
+BoundingBoxAA[] projection_bounding_box

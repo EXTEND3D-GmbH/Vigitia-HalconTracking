@@ -1,0 +1,44 @@
+{
+    "trackables": [
+        {
+            "name": "BlueHouse",
+            "hueCheck": true,
+            "flammable": true,
+            "dousing": false,
+            "dousingSound": "extinguish.wav",
+            "dousingSoundVolume": 0.2
+        },
+        {
+            "name": "Truck",
+            "hueCheck": true,
+            "flammable": false,
+            "dousing": true
+        },
+        {
+            "name": "Flower",
+            "hueCheck": true,
+            "flammable": true,
+            "dousing": false,
+            "dousingSound": "extinguish.wav",
+            "dousingSoundVolume": 0.2
+        },
+        {
+            "name": "Pylon",
+            "hueCheck": true,
+            "flammable": false,
+            "dousing": false,
+            "maxCount": 2
+        }
+    ],
+    "staticProjections": [
+        {
+            "worksheet": "Statics",
+            "name": "CampFire",
+            "ignites": true,
+            "isFire": true,
+            "loopingSound": "fire_crackle.wav",
+            "dousingSound": "extinguish.wav",
+            "dousingSoundVolume": 0.2
+        }
+    ]
+}
